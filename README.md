@@ -147,7 +147,7 @@ id | first_name |  surname   | location
 2 | Ted        | Burns      | London
 5 | David      | Grewal     |
 
-#### 3. Find everyone who has a location specified
+#### 3a. Find everyone who has a location specified
 
 ##### Expected result
 
@@ -159,6 +159,19 @@ id | first_name |    surname    | location
 6 | John       | White         | London
 7 | Paul       | Hallam-Wistle | London
 8 | Paul       | Jones         | Nazareth
+
+
+
+
+#### 3b. Find how many authors live in London and Nazareth. 
+##### Expected result
+
+count | location
+--- | ---
+3 | London
+3 | Nazareth
+
+
 
 #### 4. Find everyone who is not in Nazareth (including nulls)
 
