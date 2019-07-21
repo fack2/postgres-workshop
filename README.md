@@ -36,11 +36,11 @@ If you run into problems, on a Mac using Homebrew, run `brew services restart po
 
 ## Loading the file
 
-Please download the file and navigate in the Terminal to its location.
+Please clone the repo and navigate in the Terminal to its location.
 
-Now run the command `psql --file=data.sql` in a new Terminal window/tab.
+create database by doing `createdb books` then `psql books`
 
-If it doesn't work try `psql -f data.sql`. If it still doesn't work then holler.
+then we need to run the sql file  `\i data.sql`.
 
 This will connect to your PostgreSQL server and run all of the SQL in `data.sql`, setting up our database for us.
 
